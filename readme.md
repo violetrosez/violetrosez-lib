@@ -21,7 +21,7 @@ import violetrosezLib from "violetrosez-lib";
 
 ## 2. 按需加载
 
-```
+```javascript
 import { comp1 } from "violetrosez-lib";
 ```
 
