@@ -1,0 +1,22 @@
+{
+  "name": "violetrosez-lib",
+  "version": "1.0.0",
+  "description": "搭建一个组件库该怎么做",
+  "main": "lib/violetrosez-lib.common.js",
+  "scripts": {
+    "build:commonjs2": "webpack --config webpack.common.js",
+    "build:umd": "webpack --config webpack.umd.js",
+    "build": "npm run build:commonjs2 && npm run build:umd"
+  },
+  "keywords": [],
+  "author": "violetrosez",
+  "license": "ISC",
+  "files": [
+    "lib",
+    "package.json"
+  ],
+  "devDependencies": {
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0"
+  }
+}
