@@ -21,7 +21,9 @@ import violetrosezLib from "violetrosez-lib";
 
 ## 2. 按需加载
 
+```
 import { comp1 } from "violetrosez-lib";
+```
 
 按需加载通过 `babel-plugin-component` 插件实现
 
@@ -63,7 +65,7 @@ module.exports = {
 npm install @babel/preset-env --save-dev
 ```
 
-### 2.5 配置 .babelrc 文件(或者配置 babel.congig.js)
+### 2.5 配置 .babelrc 文件(或者配置 babel.config.js)
 
 ```
 {
@@ -72,7 +74,7 @@ npm install @babel/preset-env --save-dev
     [
       "component",
       {
-        "libraryName": "@liyongning/lyn-comp-lib",
+        "libraryName": "violeterosez-lib",
         "style": false
       }
     ]
